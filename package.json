@@ -1,0 +1,58 @@
+{
+  "name": "reserve-biscuit",
+  "version": "1.0.0",
+  "description": "advanced cookie handler for REserve",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && nyc mocha",
+    "lint": "standard --fix",
+    "mocha": "mocha",
+    "mocha-dbg": "node --inspect-brk node_modules/mocha/bin/_mocha",
+    "cover": "nyc mocha && nyc report --reporter=lcov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnaudBuchholz/reserve-biscuit.git"
+  },
+  "keywords": [
+    "reserve",
+    "cookie"
+  ],
+  "author": "Arnaud Buchholz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArnaudBuchholz/reserve-biscuit/issues"
+  },
+  "homepage": "https://github.com/ArnaudBuchholz/reserve-biscuit#readme",
+  "devDependencies": {
+    "coveralls": "^3.1.0",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1",
+    "reserve": "^1.7.1",
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "cookie": "^0.4.1"
+  },
+  "standard": {
+    "globals": [
+      "process",
+      "describe",
+      "it",
+      "before",
+      "after"
+    ]
+  },
+  "mocha": {
+    "spec": [
+      "tests/mocha/*.test.js"
+    ]
+  },
+  "nyc": {
+    "check-coverage": true,
+    "branches": 100,
+    "lines": 100,
+    "functions": 100,
+    "statements": 100
+  }
+}
