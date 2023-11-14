@@ -1,6 +1,8 @@
 # REserve/**biscuite**
 advanced cookie handler for [REserve](https://npmjs.com/package/reserve).
 
+> ⚠⚠⚠ The project has been moved under [REserve monorepo](https://github.com/ArnaudBuchholz/reserve).
+
 [![Travis-CI](https://travis-ci.org/ArnaudBuchholz/reserve-biscuit.svg?branch=master)](https://travis-ci.org/ArnaudBuchholz/reserve-biscuit#)
 [![Coverage Status](https://coveralls.io/repos/github/ArnaudBuchholz/reserve-biscuit/badge.svg?branch=master)](https://coveralls.io/github/ArnaudBuchholz/reserve-biscuit?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/db4a65b788857cd2730b/maintainability)](https://codeclimate.com/github/ArnaudBuchholz/reserve-biscuit/maintainability)
